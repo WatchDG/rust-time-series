@@ -1,0 +1,11 @@
+[package]
+name = "time-series"
+version = "0.1.0"
+authors = ["WatchDG <baranov@w3m.co>"]
+license = "MIT OR Apache-2.0"
+description = "time series"
+homepage = "https://github.com/WatchDG/rust-time-series"
+documentation = "https://docs.rs/time-series"
+repository = "https://github.com/WatchDG/rust-time-series"
+readme = "README.md"
+edition = "2018"
