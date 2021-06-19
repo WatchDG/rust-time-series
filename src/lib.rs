@@ -36,6 +36,10 @@ where
         TimeSeries { inner: Vec::new() }
     }
 
+    pub fn len(&self) -> usize {
+        self.inner.len()
+    }
+
     pub fn add_point(&mut self, data_point: DataPoint<Time, Data>) {
         self.inner.push(data_point);
     }
